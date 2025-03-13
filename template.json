@@ -2,54 +2,97 @@
   "Actor": {
     "types": ["master", "servant","npc"],
     "templates": {
+      "name": "",
       "base": {
         "health": {
           "value": 10,
           "min": 0,
-          "max": 10
+          "max": 999
         },
-        "power": {
-          "value": 5,
+        "magic": {
+          "value": 0,
           "min": 0,
-          "max": 5
+          "max": 999
         },
-        "biography": ""
+        "alignments": "",
+        "basicTraits": ""
+      },
+      "stats": {
+        "str": {
+          "value": 0,
+          "min": 0,
+          "max": 200
+        },
+        "mana": {
+          "value": 0,
+          "min": 0,
+          "max": 200
+        },
+        "edr": {
+          "value": 0,
+          "min": 0,
+          "max": 200
+        },
+        "agi": {
+          "value": 0,
+          "min": 0,
+          "max": 200
+        },
+        "luck": {
+          "value": 0,
+          "min": 0,
+          "max": 200
+        },
+        "NP": {
+          "value": 0,
+          "min": 0,
+          "max": 200
+        }
       }
     },
     "master": {
       "templates": ["base"],
-      "attributes": {
-        "level": {
-          "value": 1
-        }
+      "title": "",
+      "age": 18,
+      "gender": "female",
+      "commandSpell": {
+        "value": 3,
+        "min": 0,
+        "max": 3
       },
-      "abilities": {
-        "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
-        }
-      }
+      "masterSkills": "",
+      "backgroundStory": "",
+      "playerItem": ""
     },
     "servant": {
-      "templates": ["base"]
+      "templates": [
+        "base",
+        "stats"
+      ],
+      "age": 18,
+      "gender": "female",
+      "class": "",
+      "servantAttribute": "",
+      "classSkills": "",
+      "passiveSkills": "",
+      "activeSkills": "",
+      "noblePhantasm": "",
+      "craftEssences": "",
+      "servantInfo": {
+        "servantInfo_1": "",
+        "servantInfo_2": "",
+        "servantInfo_3": "",
+        "servantInfo_4": "",
+        "servantInfo_5": ""
+      }
     },
     "npc": {
-      "templates": ["base"],
-      "cr": 0
+      "templates": [
+        "base",
+        "stats"
+      ],
+      "npcSkills": "",
+      "description": ""
     }
   },
   "Item": {
