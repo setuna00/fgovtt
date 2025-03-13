@@ -1,0 +1,42 @@
+{
+  "FGOVTT": {
+    "stats": {
+      "str": { "long": "筋力", "abbr": "str" },
+      "mana": { "long": "魔力", "abbr": "mana" },
+      "edr": { "long": "耐力", "abbr": "edr" },
+      "agi": { "long": "敏捷", "abbr": "agi" },
+      "luck": { "long": "幸运", "abbr": "luck" },
+      "NP": { "long": "宝具", "abbr": "NP" }
+    },
+    "SheetLabels": {
+      "Actor": "fgovtt Actor Sheet",
+      "Item": "fgovtt Item Sheet"
+    },
+    "Item": {
+      "Spell": {
+        "SpellLVL": "Level {level} Spells",
+        "AddLVL": "Add LVL {level}"
+      }
+    },
+    "Effect": {
+      "Source": "Source",
+      "Toggle": "Toggle Effect",
+      "Temporary": "Temporary Effects",
+      "Passive": "Passive Effects",
+      "Inactive": "Inactive Effects"
+    }
+  },
+
+  "TYPES": {
+    "Actor": {
+      "master": "御主",
+      "servant": "从者",
+      "npc": "npc"
+    },
+    "Item": {
+      "item": "Item",
+      "feature": "Feature",
+      "spell": "Spell"
+    }
+  }
+}

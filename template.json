@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["master", "servant","npc"],
+    "types": ["master","servant","npc"],
     "templates": {
       "name": "",
       "base": {
@@ -19,31 +19,37 @@
       },
       "stats": {
         "str": {
+          "display": "",
           "value": 0,
           "min": 0,
           "max": 200
         },
         "mana": {
+          "display": "",
           "value": 0,
           "min": 0,
           "max": 200
         },
         "edr": {
+          "display": "",
           "value": 0,
           "min": 0,
           "max": 200
         },
         "agi": {
+          "display": "",
           "value": 0,
           "min": 0,
           "max": 200
         },
         "luck": {
+          "display": "",
           "value": 0,
           "min": 0,
           "max": 200
         },
         "NP": {
+          "display": "",
           "value": 0,
           "min": 0,
           "max": 200
